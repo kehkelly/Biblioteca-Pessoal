@@ -1,3 +1,4 @@
+/* cores: https://coolors.co/palette/6b9080-a4c3b2-cce3de-eaf4f4-f6fff8 */
 /* Reset básico */
 body, h1, h2, h3, ul, li, a {
     margin: 0;
@@ -6,9 +7,13 @@ body, h1, h2, h3, ul, li, a {
     text-decoration: none;
 }
 
+body {
+    background: #F6FFF8;
+}
+
 /* Estilização do header */
 header {
-    background-color: #333;
+    background-color: #6B9080;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -16,6 +21,7 @@ header {
 
 header h1 {
     margin-bottom: 0.5rem;
+    margin-top: 1rem;
 }
 
 /* Estilização do menu */
@@ -44,6 +50,16 @@ nav a:hover {
 /* Estilo do conteúdo principal */
 main {
     padding: 2rem;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer {
+    background: #CCE3DE;
+    padding-block: 0.5rem;
 }
 
 /* Estilo para ocultar elementos */
