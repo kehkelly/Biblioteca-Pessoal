@@ -48,13 +48,18 @@ nav a:hover {
 }
 
 /* Estilo do conteúdo principal */
-main {
+#main_home {
     padding: 2rem;
     height: 80vh;
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 2rem;
+}
+
+#main_livros {
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 footer {
@@ -127,13 +132,13 @@ footer {
     background: none;
     border: none;
     cursor: pointer;
-    color: #007BFF; /* Cor do ícone */
+    color: #6B9080; /* Cor do ícone */
     font-size: 1.2rem; /* Tamanho do ícone */
     transition: color 0.3s;
 }
 
 .icon-btn:hover {
-    color: #0056b3; /* Cor do ícone ao passar o mouse */
+    color: #48695b; /* Cor do ícone ao passar o mouse */
 }
 
 /* Pode querer estilizar de forma diferente dependendo da ação */
