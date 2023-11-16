@@ -62,10 +62,22 @@ nav a:hover {
     margin-left: 2rem;
 }
 
+tr {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+main button {
+    padding: 1rem;
+}
+
 footer {
     background: #CCE3DE;
     padding-block: 0.5rem;
+    margin-left: 1rem;
 }
+
 
 /* Estilo para ocultar elementos */
 .hidden {
@@ -92,6 +104,7 @@ footer {
     width: 80%;
     max-width: 500px;  /* largura máxima */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #F6FFF8;
 }
 
 #bookPopup h3 {
@@ -109,14 +122,14 @@ footer {
 }
 
 #bookPopup button[type="submit"] {
-    background: #007BFF;
-    color: #fff;
+    background: #A4C3B2;
+    color: #000;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 #bookPopup button[type="submit"]:hover {
-    background: #0056b3;
+    background: #6B9080;
 }
 
 #bookPopup #closePopupBtn {
