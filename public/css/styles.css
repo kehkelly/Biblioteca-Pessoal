@@ -57,6 +57,12 @@ nav a:hover {
     margin-top: 2rem;
 }
 
+#main_home section h3 {
+    padding-block: 1rem;
+    font-weight: 650;
+    font-size: 1.05rem;
+}
+
 #main_livros {
     margin-top: 2rem;
     margin-left: 2rem;
