@@ -135,8 +135,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     
     });
-    carregarAutores();
-    carregarEditoras();
 });
 
 function carregarAutores() {
